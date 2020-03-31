@@ -1,20 +1,28 @@
+
 <template>
+
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <project-list msg="Despresso Project Reference List"/>
+
   </div>
+
 </template>
 
+
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+
+import ProjectList from './components/ProjectList.vue'
+
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    ProjectList
   }
 }
+
 </script>
+
 
 <style>
 #app {
